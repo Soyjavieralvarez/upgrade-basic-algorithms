@@ -107,3 +107,18 @@ if (number2 / 2 == number1 || number1 / 5 == number3){
 
 //! Bucles
 
+for (let i = 0; i<=9; i++){
+    console.log(i)
+}
+
+for (let i = 0; i<=9; i++)
+    if (i % 2 === 0) {
+        console.log(i)
+    }
+
+for (let i = 0; i<=9; i++)
+if (i ===9){
+    console.log('Dormido')
+} else {
+    console.log('Intentando dormir')
+}
